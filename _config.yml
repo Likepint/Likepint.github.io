@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               (●'◡'●)
+tagline:               ❄️
 
 # A list of keywords for your blog
 keywords:              []
@@ -37,19 +37,23 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/js.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Jeongsu Park
+  email:               jsuuu96@kakao.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Unreal [SeSAC]
+  - title:             PREPARE CODING TEST
+    url:               /code/
+#  - title:             DirectX
+#    url:               /directx/
+  - title:             SEOUL SOFTWARE ACADEMY
     url:               /sesac/
 #  - title:             Documentation
 #    url:               /docs/
@@ -81,7 +85,7 @@ paginate_path:         /:num/
 # ---------------------------------------------------------------------------------------
 
 # This will use the gem `jekyll-theme-hydejack`, as defined in the sibling `Gemfile`.
-# theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 
 # You can uncomment `theme` above and replace it with `remote_theme` here iff you are using the 
 # `jekyll-remote-theme` plugin (which is the case when using the legacy GitHub Pages pipeline).
@@ -92,8 +96,8 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/bg.jpg
+accent_color:          rgb(25,55,71)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -128,10 +132,10 @@ defaults:
   - scope:
       path:            hyde/
     values:
-      accent_color:    rgb(38,139,210)
-      theme_color:     rgb(32,32,32)
+      accent_color:    rgb(25,55,71)
+      theme_color:     rgb(25,55,71)
       accent_image:
-        background:    rgb(32,32,32)
+        background:    rgb(25,55,71)
         overlay:       false
 
   # Don't include documents in assets in the sitemap
@@ -280,7 +284,7 @@ hydejack:
     enabled:           false
     cache_version:     13
     precache_assets:
-      - /assets/img/swipe.svg
+#      - /assets/img/swipe.svg
 
 
 # Collections
@@ -404,21 +408,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/bg.jpg
     posts:
       layout: post
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/bg.jpg
     projects:
       layout: project
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/bg.jpg
       links:
         - title: Project Link
           url: https://example.com

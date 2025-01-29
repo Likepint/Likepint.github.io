@@ -2,24 +2,28 @@
 layout: post
 description: > 
   UE_LOG, OnScreenDebugMessage 출력
-accent_image: /assets/img/blog/pawel-czerwinski-848z7lbCjoo-unsplash.jpg
+accent_image: 
 excerpt_separator: <!--more-->
 sitemap: false
 ---
 
 # 2025.01.08 Unreal C++ Shooting2D
 ## UE_LOG를 사용하여 Hello World 출력
+
 ```c++
 // define 원형
 #define UE_LOG(CategoryName, Verbosity, Format, ...) \
 	UE_PRIVATE_LOG(PREPROCESSOR_NOTHING, constexpr, CategoryName, Verbosity, Format, ##__VA_ARGS__)
 
 UE_LOG(<LOG_CATEGORY>, <VERBOSITY_LEVEL>, TEXT("SENTENCE"));
+
 ```
 
 ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/8f35c931-bc2a-4ca6-a929-fa1c63d1f9b0/outputlogwindow.png)
+```c++
+UE_LOG(LogTemp, Warning, TEXT("Hello World"));
 
-    UE_LOG(LogTemp, Warning, TEXT("Hello World"));
+``` 
 
 <!--more-->
 * toc 
@@ -54,6 +58,7 @@ void UEngine::AddOnScreenDebugMessage
 )
 
 GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, TEXT("This is an Example on-screen debug message."));
+
 ```
 ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/8fdd74a2-3b9c-4d9e-a2c5-465f203ea941/printscreenmessage.png)
 

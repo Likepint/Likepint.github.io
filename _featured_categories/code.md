@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: SeSAC Game Development For Unreal
+title: CODING TEST
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: sesac
+slug: code
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  [SBA 도봉 SW 2기] 언리얼 엔진과 생성형 AI를 활용한 게임 개발 과정
+  백준 및 프로그래머스 문제 풀이 공유
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

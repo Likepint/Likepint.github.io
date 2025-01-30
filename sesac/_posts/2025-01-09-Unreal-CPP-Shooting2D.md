@@ -126,3 +126,6 @@ void ACPlayerPawn::Tick(float DeltaTime)
 
 ### 이동 테스트 코드 결과
 ![gif)](https://mblogthumb-phinf.pstatic.net/MjAyNTAxMjlfMjUg/MDAxNzM4MTYwNDc1MDY5.WpiTriZNFcbXzyp-tUWB8GDu4zZOtDf8VKHH6iHhW90g.bNG3eVCjT_LVgy6Bx7CGYCptVXkTkSHXwoW2mHhLyH0g.GIF/2025-01-29_10-01-26.gif?type=w966)
+
+## Github
+[![Github](https://mblogthumb-phinf.pstatic.net/MjAyNTAxMzBfMTA1/MDAxNzM4MjAxMDQyMjQ3.oQfi6oNsgKIzoWlLEuMJAAmVWoKfAaSkD9Iz7jGwtzQg.LT6UWR0c581WX7Z14Iw89jOXcWYN13qQa2x7sb7zX1Yg.JPEG/Github.jpg?type=w800)](https://github.com/Likepint/CPP_Shooting2D)

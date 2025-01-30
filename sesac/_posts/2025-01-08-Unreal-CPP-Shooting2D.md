@@ -10,6 +10,9 @@ sitemap: false
 # 2025.01.08 Unreal C++ Shooting2D
 ## UE_LOG를 사용하여 Hello World 출력
 
+* toc 
+{:toc .large-only}
+
 ```c++
 // define 원형
 #define UE_LOG(CategoryName, Verbosity, Format, ...) \
@@ -26,8 +29,6 @@ UE_LOG(LogTemp, Warning, TEXT("Hello World"));
 ``` 
 
 <!--more-->
-* toc 
-{:toc .large-only}
 
 ### Log Verbosity levels
 
@@ -66,3 +67,6 @@ GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, TEXT("This is an Exampl
  - 두 번째 파라미터 TimeToDisplay 는 플로트를 사용하여 메시지가 사라지기 전 메시지를 표시할 시간(초)을 지정합니다.
  - 세 번째 파라미터 DisplayColor 는 텍스트를 표시할 컬러를 취합니다.
  - 네 번째 파라미터 DebugMessage 는 표시할 메시지입니다. 로그와 비슷하게 화면 디버그 메시지에서 포맷 지정자 및 변수를 사용할 수 있습니다.
+
+## Github
+[![Github](https://mblogthumb-phinf.pstatic.net/MjAyNTAxMzBfMTA1/MDAxNzM4MjAxMDQyMjQ3.oQfi6oNsgKIzoWlLEuMJAAmVWoKfAaSkD9Iz7jGwtzQg.LT6UWR0c581WX7Z14Iw89jOXcWYN13qQa2x7sb7zX1Yg.JPEG/Github.jpg?type=w800)](https://github.com/Likepint/CPP_Shooting2D)

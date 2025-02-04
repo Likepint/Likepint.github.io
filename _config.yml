@@ -49,10 +49,10 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             UNREAL PROJECTS
+    url:               /nakwon/
   - title:             PREPARE CODING TEST
     url:               /code/
-#  - title:             DirectX
-#    url:               /directx/
   - title:             SEOUL SOFTWARE ACADEMY
     url:               /sesac/
 #  - title:             Documentation

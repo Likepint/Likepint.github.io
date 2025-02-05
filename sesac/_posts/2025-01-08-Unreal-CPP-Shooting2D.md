@@ -8,10 +8,13 @@ sitemap: false
 ---
 
 # 2025.01.08 Unreal C++ Shooting2D
-## UE_LOG를 사용하여 Hello World 출력
+![image](https://cdn.htmr.kr/uploads/news/_thumbnail/642e2b3a64553.jpg)
 
+<!--more-->
 * toc 
 {:toc .large-only}
+
+## UE_LOG를 사용하여 Hello World 출력
 
 ```c++
 // define 원형
@@ -27,8 +30,6 @@ UE_LOG(<LOG_CATEGORY>, <VERBOSITY_LEVEL>, TEXT("SENTENCE"));
 UE_LOG(LogTemp, Warning, TEXT("Hello World"));
 
 ``` 
-
-<!--more-->
 
 ### Log Verbosity levels
 

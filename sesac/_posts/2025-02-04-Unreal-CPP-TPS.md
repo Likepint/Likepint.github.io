@@ -8,12 +8,14 @@ sitemap: false
 ---
 
 # 2025.02.04 Unreal C++ TPS
-- ## Enhanced Input 설정
-![image](https://i.ytimg.com/vi/CYiHNbAIp4s/maxresdefault.jpg)
+
+![image](https://cdn.htmr.kr/uploads/news/_thumbnail/642e2b3a64553.jpg)
 
 <!--more-->
 * toc 
 {:toc .large-only}
+
+- ## Enhanced Input 설정
 
 - ### 마우스(Mouse) 회전 구현
 #### IA_VerticalLook

@@ -1,22 +1,24 @@
 ---
 layout: post
 description: > 
-  PlayerPawn 제작, 게임모드 및 레벨 설정 \
+  PlayerPawn 제작, 게임모드 및 레벨 설정
 accent_image: 
 excerpt_separator: <!--more-->
 sitemap: false
 ---
 
 # 2025.01.10 Unreal C++ Shooting2D
-## 플레이어 이동
 
-### Movement 키바인딩
-![image](https://mblogthumb-phinf.pstatic.net/MjAyNTAxMzBfNzQg/MDAxNzM4MjAxNzA1MTY4.TVhJocPWm3cVE6aiEwlhffYH4jOO-d-XK_NiI-sF1bYg.STn1Qtesdi387xm2yJFa7455lUkRWbgDJ4JsitNcQS4g.PNG/image.png?type=w800)
-> Axis Mappings에 Vertical, Horizontal을 추가
+![image](https://cdn.htmr.kr/uploads/news/_thumbnail/642e2b3a64553.jpg)
 
 <!--more-->
 * toc 
 {:toc .large-only}
+
+## 플레이어 이동
+### Movement 키바인딩
+![image](https://mblogthumb-phinf.pstatic.net/MjAyNTAxMzBfNzQg/MDAxNzM4MjAxNzA1MTY4.TVhJocPWm3cVE6aiEwlhffYH4jOO-d-XK_NiI-sF1bYg.STn1Qtesdi387xm2yJFa7455lUkRWbgDJ4JsitNcQS4g.PNG/image.png?type=w800)
+> Axis Mappings에 Vertical, Horizontal을 추가
 
 ```c++
 UCLASS()

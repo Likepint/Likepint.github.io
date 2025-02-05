@@ -8,6 +8,13 @@ sitemap: false
 ---
 
 # 2025.02.03 Unreal C++ TPS
+
+![image](https://cdn.htmr.kr/uploads/news/_thumbnail/642e2b3a64553.jpg)
+
+<!--more-->
+* toc 
+{:toc .large-only}
+
 - ## 필요한 매크로(Macro) 설정
 
 ```java
@@ -25,10 +32,6 @@ DECLARE_LOG_CATEGORY_EXTERN(TPS, Log, All);
 
 #define PRINT_LOG(fmt, ...) UE_LOG(TPS, Warning, TEXT("%s %s"), *CALLINFO, *FString::Printf(fmt, ##__VA_ARGS__))
 ```
-
-<!--more-->
-* toc 
-{:toc .large-only}
 
 ```java
 // TPSExample.cpp

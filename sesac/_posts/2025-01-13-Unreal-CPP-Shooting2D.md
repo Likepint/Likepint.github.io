@@ -8,13 +8,15 @@ sitemap: false
 ---
 
 # 2025.01.13 Unreal C++ Shooting2D
-## Enemy Class
 
-![image](https://mblogthumb-phinf.pstatic.net/MjAyNTAxMzBfMTg1/MDAxNzM4MjI3ODMyNTEz.1u_zaIRe08ud8mfzxfSnnGydSE5YWTy5fPO_ItQptNgg.QqDOO5tBCsMFrzgcfiA7wstYZSoq4dxOWwVfuOYiB5Yg.PNG/image.png?type=w800)
+![image](https://cdn.htmr.kr/uploads/news/_thumbnail/642e2b3a64553.jpg)
 
 <!--more-->
 * toc 
 {:toc .large-only}
+
+## Enemy Class
+![image](https://mblogthumb-phinf.pstatic.net/MjAyNTAxMzBfMTg1/MDAxNzM4MjI3ODMyNTEz.1u_zaIRe08ud8mfzxfSnnGydSE5YWTy5fPO_ItQptNgg.QqDOO5tBCsMFrzgcfiA7wstYZSoq4dxOWwVfuOYiB5Yg.PNG/image.png?type=w800)
 
 ![image](https://mblogthumb-phinf.pstatic.net/MjAyNTAxMzBfMTM3/MDAxNzM4MjI3ODQ4MTcz.oROAXlTJ2ZFSIgrbqi9lFXYn-7GoB3y2Sd22qeTUSDYg.FS0RV585ojWNdwXQnjv-lx5TLI7f0Xmqhy5R3QmqWagg.PNG/image.png?type=w800)
 > Actor Class를 상속받아 CEnemy Class 생성

@@ -8,6 +8,13 @@ sitemap: false
 ---
 
 # 2025.01.14 Unreal C++ Shooting2D
+
+![image](https://cdn.htmr.kr/uploads/news/_thumbnail/642e2b3a64553.jpg)
+
+<!--more-->
+* toc 
+{:toc .large-only}
+
 ## 충돌 처리 (Collision)
 
 - ### 1. 오브젝트 채널 (Object Channels) 생성

@@ -8,14 +8,17 @@ sitemap: false
 ---
 
 # 2025.01.09 Unreal C++ Shooting2D
-## 플레이어(PlayerPawn) 제작
 
-![image](https://mblogthumb-phinf.pstatic.net/MjAyNTAxMjlfNDQg/MDAxNzM4MTU3ODk5MDMw._cVxRSGlF_IINinkjoKC28AAilC6LsrX1zka6mdrirQg.1d-R6pk-QA2GQh0v1l-XFkiGaLUF5QTlSvvyRDwc8_4g.PNG/image.png?type=w800)
-> **Pawn class**를 상속받아 플레이어 폰 생성 (초기에는 Cube를 사용하여 제작 예정)
+![image](https://cdn.htmr.kr/uploads/news/_thumbnail/642e2b3a64553.jpg)
 
 <!--more-->
 * toc 
 {:toc .large-only}
+
+## 플레이어(PlayerPawn) 제작
+
+![image](https://mblogthumb-phinf.pstatic.net/MjAyNTAxMjlfNDQg/MDAxNzM4MTU3ODk5MDMw._cVxRSGlF_IINinkjoKC28AAilC6LsrX1zka6mdrirQg.1d-R6pk-QA2GQh0v1l-XFkiGaLUF5QTlSvvyRDwc8_4g.PNG/image.png?type=w800)
+> **Pawn class**를 상속받아 플레이어 폰 생성 (초기에는 Cube를 사용하여 제작 예정)
 
 ```c++
 private:
